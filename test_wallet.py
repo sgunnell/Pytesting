@@ -15,7 +15,7 @@ def wallet():
 
 @pytest.fixture
 def my_wallet():
-    '''Returns a Wallet instance with a zero balance'''
+    '''Returns a Wallet instance with a $50 balance'''
     return Wallet(50)
 
 @pytest.mark.parametrize("earned,spent,expected", [
